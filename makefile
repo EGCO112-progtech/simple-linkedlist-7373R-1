@@ -1,8 +1,8 @@
 compile: main.c 
-	 gcc main.c -o ming
+	 gcc main.c -o tatar
 
-run: ming
-	 ./ming
+run: tatar
+	 ./tatar
 
-clean: ming
-	 rm ming
+clean: tatar
+	 rm tatar
