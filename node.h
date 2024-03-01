@@ -8,10 +8,10 @@
 #ifndef node_h
 #define node_h
 
-struct node
+typedef struct node
 {
     int value;
     struct node *next;
-};
+}Node;
 
 #endif /* node_h */
